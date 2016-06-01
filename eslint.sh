@@ -12,7 +12,7 @@ export PATH
 hfold --end
 
 hfold 'Install project node modules'
-cd ~/repositories/example-eslint-harrow-io
+cd ~/repositories/"${REPO_NAME}:?Don't know which repository to deploy, check the environment}"
 npm install
 hfold --end
 
