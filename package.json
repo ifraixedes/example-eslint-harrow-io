@@ -1,0 +1,14 @@
+{
+  "name": "eslint-harrowio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.js",
+  "scripts": {
+    "lint": "eslint --ext .js ."
+  },
+  "author": "Ivan Fraixedes (http://ivan.fraixed.es)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^2.11.1"
+  }
+}
